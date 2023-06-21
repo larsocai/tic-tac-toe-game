@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Tic Tac Toe game built using React. It allows two players to take turns and compete against each other in a classic game of Tic Tac Toe.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Two-player mode: Play against a friend locally.
+- Interactive gameplay: Click on the cells to make your move.
+- Win detection: The game automatically detects and highlights the winner.
+- Restart option: After a game is finished, you can restart and play again.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- HTML: The standard markup language for creating web pages.
+- CSS: A style sheet language used for describing the presentation of a document written in HTML.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Roadmap of Future Improvements
 
-### `npm test`
+- Include a feature that allows player to personalize their game (add name).
+- Include a feature that utilizes an AI player.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run this Tic Tac Toe game locally on your machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/your-username/tic-tac-toe.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```bash
+cd tic-tac-toe
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the dependencies using a package manager such as npm or yarn:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
+or
+```bash
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
+or
+```bash
+yarn start
+```
 
-## Learn More
+5. Open your web browser and visit http://localhost:3000 to play the game.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Game Rules
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. The game is played on a 3x3 grid.
+2. Each player takes turns marking a vacant cell with their assigned symbol (either "X" or "O").
+3. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+4. If all cells are filled and no player has won, the game is a draw.
 
-### Code Splitting
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can customize the game by modifying the CSS styles in the `styles.css` file. Feel free to experiment with different colors, fonts, and layouts to make the game suit your preferences.
 
-### Analyzing the Bundle Size
+## Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions to this Tic Tac Toe game are welcome! If you find any issues or have suggestions for improvements, please create a pull request or open an issue on the GitHub repository.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- This game was built using React, following the official React documentation and tutorials.
+- The design and structure of this README file were inspired by typical open-source projects.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<strong>Enjoy playing Tic Tac Toe!</strong>
